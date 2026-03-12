@@ -37,10 +37,10 @@ int main() {
     while (sisaKesempatan > 0) {
         system("cls");
         cout << "=== LOGIN ===\n";
-        cout << "Username : ";
+        cout << "Username (Nama): ";
         cin >> inputNama;
 
-        cout << "Password : ";
+        cout << "Password (NIM): ";
         cin >> inputNim;
 
         if (inputNama == admin.nama && inputNim == admin.nim) {
